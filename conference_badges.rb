@@ -30,8 +30,8 @@ def assign_rooms(speakers)            # new tool - assign_rooms.. it requires so
 end
 
 
-def printer(attendees)        #new tool..it requires someons input the list of attendees
-  batch_badge_creator(attendees).each do |badge|    # call the batch_badge_creator array which requires list of attendees and for each badge call variable badge 
+def printer(attendees)       
+  batch_badge_creator(attendees).each do |badge|    
     puts badge
   end
   
